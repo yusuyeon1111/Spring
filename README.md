@@ -36,5 +36,11 @@
 3. DB 드라이버 파일을 가져올 라이브러리 : my sql-connector-java
 4. spring f/w와 mybatis f/w 연결해주는 라이브러리 : mybatis-spring
 5. spring f/w jdbc 연결해주는 라이브러리 : spring-jdbc
+![image](https://github.com/yusuyeon1111/Spring/assets/142488306/52799ed7-e3cb-45c7-a380-9a4e00b76258)
+![image](https://github.com/yusuyeon1111/Spring/assets/142488306/b215673d-f7c1-44ea-92dd-7344484952bc)
 
-   
+ ### contextPath를 동적으로 가져오는 방법
+ ```
+<c:set var="cpath" value="${pageContext.request.contextPath }"/>
+"/${cpath }”
+```
