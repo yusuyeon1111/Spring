@@ -13,7 +13,8 @@ annotation
 3. @Autonwired - Spring container 안쪽에 있는 객체를 가져와서 자동으로 주입시키는 주석
 4. @GetMapping() - Get 전송박식 요청 url을 메소드와 연결시킬 수 있는 주석
 5. @ PostMapping() -Post 전송박식 요청 url을 메소드와 연결시킬 수 있는 주석
-6. @Select("sql 구문") - 비교적 간단한 sql구문일 때는, 굳이 xml파일로 가지 않고, annotation 활용해서 처리할 수 있음.
+6. @Select/@Delete/ @Insert / @Update ("sql 구문") - 비교적 간단한 sql구문일 때는, 굳이 xml파일로 가지 않고, annotation 활용해서 처리할 수 있음.
+7. PathVariable("name값") - QueryString 형식이 아닌, 경로 자체에 데이터를 포함시켰을 때 해당하는 데이터를 수집하는 방법
 ![image](https://github.com/yusuyeon1111/Spring/assets/142488306/c776a28f-5b95-4912-92bf-cafa3bca3deb)
 ![image](https://github.com/yusuyeon1111/Spring/assets/142488306/76a3e07b-fa63-4a31-8c30-a5291e43cfb2)
 
